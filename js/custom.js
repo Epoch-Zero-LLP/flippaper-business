@@ -1,25 +1,14 @@
 "use strict";
-$(document).ready(function() {
+$(document).ready(function () {
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        AOS Animation Activation
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
     AOS.init();
     window.addEventListener("load", AOS.refresh);
     AOS.init({
         once: true
     })
 
-   
 
-
-
-
-
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
-           Sticky Header
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-    window.onscroll = function() {
+    window.onscroll = function () {
         scrollFunction();
     };
 
@@ -42,40 +31,26 @@ $(document).ready(function() {
         }
     }
 
-
-   
-
-
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
-           Smooth Scroll
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
-    $(".goto").on("click", function(event) {
+    $(".goto").on("click", function (event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $("html, body").animate({
-                    scrollTop: $(hash).offset().top,
-                },
+                scrollTop: $(hash).offset().top,
+            },
                 2000,
-                function() {
+                function () {
                     window.location.hash = hash;
                 }
             );
         } // End if
     });
 
-
-
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
-          Preloader Activation
-    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
-    $(window).load(function() {
-        setTimeout(function() {
+    $(window).load(function () {
+        setTimeout(function () {
             $("#loading").fadeOut(500);
         }, 1000);
-        setTimeout(function() {
+        setTimeout(function () {
             $("#loading").remove();
         }, 2000);
     });

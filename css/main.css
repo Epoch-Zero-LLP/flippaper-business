@@ -1076,7 +1076,7 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .sticky-menu-bg.reveal-header {
-  background: #1D263A !important;
+  background: #3ed3cf !important;
 }
 
 .sticky-menu-bg.reveal-header .nav-link-item {
@@ -1826,7 +1826,6 @@ li.sub-menu--item.nav-item-has-children i {
 
 /*Section heading style-12*/
 .section-heading-12 h6 {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -1836,7 +1835,6 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .section-heading-12 h2 {
-  font-family: Inter;
   color: #000;
   font-size: 34px;
   font-weight: 700;
@@ -1854,9 +1852,6 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .section-heading-12 p {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
   font-size: 20px;
   line-height: 34px;
   color: #535659;
@@ -4091,7 +4086,7 @@ content: '';
 }
 
 .lets-talk-btn {
-  background: #5da689;
+  background: #3ed3cf;
   min-width: 180px;
   height: 60px;
   font-weight: 600;
@@ -6630,18 +6625,21 @@ content: '';
         <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 .content-area-l6-2 {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 @media (min-width: 768px) {
   .content-area-l6-2 {
     padding-bottom: 80px;
-  }
+  padding-top: 80px;
+}
 }
 
 @media (min-width: 992px) {
   .content-area-l6-2 {
     padding-bottom: 130px;
-  }
+  padding-top: 130px;
+}
 }
 
 .content-box-l6-2 {
@@ -11160,7 +11158,6 @@ Content Area-1 L-11-2
 }
 
 .feature-l-11-items .content-body h5 {
-  font-family: Gothic A1;
   font-style: normal;
   font-weight: 800;
   font-size: 21px;
@@ -11170,7 +11167,6 @@ Content Area-1 L-11-2
 }
 
 .feature-l-11-items .content-body p {
-  font-family: Karla;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -13000,7 +12996,6 @@ Content Area-1 L-11-2
 }
 
 .testimonial-area-l-13 .testimonial-card .content-body h5 {
-  font-family: Karla;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -13011,7 +13006,6 @@ Content Area-1 L-11-2
 }
 
 .testimonial-area-l-13 .testimonial-card .content-body p {
-  font-family: Karla;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -15529,7 +15523,6 @@ Content Area-1 L-11-2
 }
 
 .content-area-2-l-16 .content .content-body h4 {
-  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -15538,7 +15531,6 @@ Content Area-1 L-11-2
 }
 
 .content-area-2-l-16 .content .content-body p {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -16010,7 +16002,6 @@ Content Area-1 L-11-2
 }
 
 .footer-area-l-16 .content-body p {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -17643,7 +17634,6 @@ Content Area-1 L-11-2
 }
 
 .feature-card-l-18 .content-body h5 {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -17652,7 +17642,6 @@ Content Area-1 L-11-2
 }
 
 .feature-card-l-18 .content-body p {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -18503,7 +18492,6 @@ Content Area-1 L-11-2
 }
 
 .services-area-l-19-items .single-services .content-body h5 {
-  font-family: Inter;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -18512,7 +18500,6 @@ Content Area-1 L-11-2
 }
 
 .services-area-l-19-items .single-services .content-body p {
-  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
