@@ -1725,12 +1725,10 @@ li.sub-menu--item.nav-item-has-children i {
 
 /*Section heading style-9*/
 .section-heading-9 h2 {
-  font-family: Karla;
   color: #1F1F1F;
   font-size: 34px;
   font-weight: 700;
   font-style: normal;
-  letter-spacing: -2.52632px;
   line-height: 40px;
   margin-bottom: 15px;
 }
@@ -1750,7 +1748,6 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .section-heading-9 p {
-  font-family: Karla;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -14124,7 +14121,6 @@ Content Area-1 L-11-2
 }
 
 .hero-area-l-15 .content p {
-  font-family: Karla;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -14136,7 +14132,6 @@ Content Area-1 L-11-2
 }
 
 .hero-area-l-15 .rating-text {
-  font-family: Karla;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -14338,7 +14333,6 @@ Content Area-1 L-11-2
 }
 
 .content-area-l-15-1 .content h6 {
-  font-family: Karla;
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
@@ -14374,7 +14368,6 @@ Content Area-1 L-11-2
   height: 60px;
   background: #FFFFFF;
   border-radius: 5px;
-  font-family: Karla;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -25915,4 +25908,3 @@ img.spin {
   filter: brightness(0.7);
 }
 
-/*# sourceMappingURL=maps/main.css.map */
